@@ -1,0 +1,343 @@
+#header{
+    width: 100%;
+    padding: 5px 0px 5px 18px;
+    border-bottom-width: 5px;
+    color: #3a3a3a;
+    background: #d9efba;
+    font-family: Georgia, serif;
+    font-style: italic;
+    align-content: center;
+    border-style: none none solid none;
+    border-color: #3a3a3a;
+}
+
+.title{
+    margin-top: 10px;
+    margin-right: 0px;
+    width: 700px;
+    float: left;
+}
+
+.headerBtn{
+    float: right;
+    background-color: #3a3a3a !important;
+    color: #d9efba !important;
+    border-color: #3a3a3a;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.loginBtn:hover{
+    border-color: #d9efba;
+}
+
+#dropdownBtn{
+    float: right;
+}
+
+#indexPage.active, #studentsPage.active{
+    background-color: gray;
+}
+
+.row.content {
+    height: auto;
+    
+}
+
+#mainDiv{
+    width: 90%;
+    height: 95%;
+    min-height: 650px;
+    color: #3a3a3a;
+    margin: 0 50px 40px 50px;
+}
+
+#loginDiv{
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#loginTitle{
+    margin-left: 130px;
+    font-weight: 700;
+}
+
+#checkLoginBtn{
+    margin-left: 110px;
+    width: 150px;
+    font-weight: 700;
+}
+
+#errorMsg{
+    padding-left: 75px; 
+    color: red;              
+}
+
+.divs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: #3a3a3a;
+    padding: 0 0 0 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.indexImages{
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: #d9efba;
+    color: #3a3a3a;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 15px;
+    border-style: solid none none none;
+    border-color: #3a3a3a;
+    height: 150px important;
+    text-align: center;
+}
+
+#data{
+    float: left;
+    margin-left: 50px;
+}
+
+#logo{
+    float: right;
+    margin-right: 50px;
+}
+
+#home{
+    color: #3a3a3a;
+    font-family: Georgia, serif;
+    font-style: italic;
+    align-content: center;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+}
+
+#welcomeMsg{
+    width: 750px;
+    margin-right: 0px;
+}
+
+.tableDiv{
+    margin-bottom: 30px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#tableStudent{
+    width: 700px;
+}
+
+#tableActivity{
+    width: 1100px;
+}
+
+#tableTypes{
+    width: 500px;
+}
+
+#tableTypes thead th, #tableTypes tbody td{
+    width: 250px;
+}
+
+#tableAdmin{
+     width: 800px;
+}
+
+table{
+    width: 100%;
+    font-size: 14px;
+}
+
+.table_header{
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 700;
+}
+
+.columnName{
+    float: left;
+}
+
+.sort_img{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+thead, tbody { 
+    display: block;
+}
+
+thead th,tbody td { 
+    width: 170px;
+}
+
+tbody{
+    height: 400px;
+    width: inherit;
+    overflow: auto;
+}
+
+.tableButtons{
+    margin: 0px 10px 0px 10px;
+}
+
+#search{
+    margin-left: 10px;
+}
+
+.myButtons{
+    background-color: #d9efba !important;
+    color: #3a3a3a !important;
+    border-color: #d9efba;
+    margin-right: 10px;
+}
+
+.myButtons:hover{
+    border-color: #3a3a3a;
+}
+
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+#myInput {
+    border-box: box-sizing;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+}
+
+#msgBox{
+    visibility: hidden;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.btn {
+    color: white;
+    background: #337ab7;
+}
+
+.list-item-btn {
+    position: relative;
+    z-index: 22;
+    visibility: hidden;
+    margin: 8px;
+    margin-right: 0;
+    float: right;
+    background-color: #337ab7;
+}
+
+.visibleBtn{
+	visibility: hidden;
+}
+
+tr:hover .visibleBtn {
+	visibility: visible;
+}
+
+.inputGroup{
+    width: 350px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+#msgDiv{
+    height: 400px;
+}
+
+.typeDiv{
+    position: absolute;
+    float: right;
+    width: 400px;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #dddddd;
+    border-radius: 3px;
+    right: 100px;
+}
+
+#addTypeDiv{
+    top: 130px;
+}
+
+#updateTypeDiv{
+    top: 350px;
+}
+
+.typesTable{
+    margin-right: 20px;
+    height: 600px;
+}
+
+#adminBtn{
+    margin-bottom: 0px;
+}
